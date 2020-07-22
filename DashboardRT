@@ -1,0 +1,15 @@
+#!/bin/bash
+
+#*******************************************************************
+#					Tecnologico de Costa Rica
+#*******************************************************************
+#	Programador: Esteban Aguero Perez (estape11)
+#	Lenguaje: Bash
+#	Version: 0.10
+#	Ultima Modificacion: 21/07/2020
+#	Descripcion:	
+#				Launcher del programa
+#*******************************************************************
+
+SCRIPT_DIR=$(dirname "$0")
+python3 $SCRIPT_DIR/Dashboard.py 2>/dev/null
